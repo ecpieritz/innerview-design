@@ -17,7 +17,6 @@
 - React
   - Router
 - Axios
-- Youtube API v3
 - SCSS
 - Bootstrap
 - Javascript
