@@ -1,0 +1,16 @@
+.id-btn{
+  &.arrow{
+    color: $id-black;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    svg{
+      margin-left: 15px;
+      height: 20px;;
+    }
+    &:hover{
+      color: $id-red;
+      text-decoration: none;
+    }
+  }
+}
