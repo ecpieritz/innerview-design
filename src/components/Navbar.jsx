@@ -21,6 +21,28 @@ function Navbar() {
       img: faSquareInstagram,
     },
   ];
+  const links = [
+    {
+      url: "/",
+      text: "Home",
+    },
+    {
+      url: "/about",
+      text: "About",
+    },
+    {
+      url: "/projects",
+      text: "Projects",
+    },
+    {
+      url: "/clients",
+      text: "Clients",
+    },
+    {
+      url: "/contact",
+      text: "Contact",
+    },
+  ];
   return (
     <div class="id-navbar fixed-top">
       <div className="id-navbar__nav">
@@ -29,8 +51,8 @@ function Navbar() {
             class="navbar-toggler"
             type="button"
             data-toggle="collapse"
-            data-target="#navbarToggleExternalContent"
-            aria-controls="navbarToggleExternalContent"
+            data-target="#id-navbar"
+            aria-controls="id-navbar"
             aria-expanded="false"
             aria-label="Toggle navigation"
           >
@@ -55,10 +77,18 @@ function Navbar() {
           </div>
         </nav>
       </div>
-      <div class="collapse" id="navbarToggleExternalContent">
-        <div class="bg-dark p-4">
-          <h5 class="text-white h4">Collapsed content</h5>
-          <span class="text-muted">Toggleable via the navbar brand.</span>
+      <div class="collapse id-navbar__links" id="id-navbar">
+        <div class="content">
+          {links.map((link, index) => (
+            <a
+              href={link.url}
+              rel="noopener noreferrer"
+              key={index}
+              className="id-navbar__links__link"
+            >
+              <p>{link.text}</p>
+            </a>
+          ))}
         </div>
       </div>
     </div>
