@@ -1,0 +1,26 @@
+.id-footer{
+  background-color: $id-black;
+  .container-fluid{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0 0;
+  }
+  &__logo{
+    p{
+      font-size: 35px;
+      color: $id-white;
+    }
+    &:hover{
+      p{
+        color: $id-red;
+      }
+
+      text-decoration: none;
+    }
+  }
+  &__made-by{
+    color: $id-white;
+  }
+}
