@@ -37,4 +37,22 @@
       }
     }
   }
+
+  &__projects{
+    background-image: url(../../../assets/img/id-home__projects.png);
+    background-position: top center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 850px;
+    margin-top: 80px;
+
+    &__texts{
+      width: 40%;
+      color: $id-white;
+      padding-top: 160px;
+      p{
+        margin: 30px 0;
+      }
+    }
+  }
 }
