@@ -4,7 +4,7 @@ function Projects() {
   return (
     <main className='id-projects'>
       <div className="container-fluid">
-        <h1>Home</h1>
+        <h1>Projects</h1>
       </div>
     </main>
   )
