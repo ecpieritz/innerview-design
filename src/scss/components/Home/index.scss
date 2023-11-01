@@ -8,4 +8,33 @@
       object-position: top;
     }
   }
+
+  &__special{
+    &__img{
+      img{
+        width: 100%;
+      }
+
+    }
+    &__text{
+      display: flex;
+      flex-direction: column;
+      
+      h2{
+        width: 70%;
+        line-height: 1.4;
+      }
+
+      p{
+        margin: 40px 0;
+        width: 70%;
+      }
+
+      img{
+        margin: 150px 0 0 auto;
+
+        width: 580px;
+      }
+    }
+  }
 }
