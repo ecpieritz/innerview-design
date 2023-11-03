@@ -1,10 +1,12 @@
 import React from "react";
+import { useLocation } from 'react-router-dom';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faLinkedin,
   faSquareGithub,
   faSquareInstagram,
 } from "@fortawesome/free-brands-svg-icons";
+import { faBars } from "@fortawesome/free-solid-svg-icons";
 
 function Navbar() {
   const socials = [
@@ -43,8 +45,10 @@ function Navbar() {
       text: "Contact",
     },
   ];
+  const location = useLocation();
+  const isAboutOrContact = location.pathname === '/about' || location.pathname === '/contact';
   return (
-    <div class="id-navbar fixed-top">
+    <div className={`id-navbar ${isAboutOrContact ? 'black' : ''} fixed-top`}>
       <div className="id-navbar__nav">
         <nav class="navbar navbar-dark">
           <button
@@ -56,7 +60,7 @@ function Navbar() {
             aria-expanded="false"
             aria-label="Toggle navigation"
           >
-            <span class="navbar-toggler-icon"></span>
+            <FontAwesomeIcon icon={faBars} />
           </button>
 
           <a className="id-navbar__nav__logo" href="/">
