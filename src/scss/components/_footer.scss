@@ -23,4 +23,21 @@
   &__made-by{
     color: $id-white;
   }
+
+  &.white{
+    background-color: $id-white;
+    .id-footer__logo{
+      p{
+        color: $id-black;
+      }
+      &:hover{
+        p{
+          color: $id-red;
+        }
+      }
+    }
+    .id-footer__made-by{
+      color: $id-black;
+    }
+  }
 }
