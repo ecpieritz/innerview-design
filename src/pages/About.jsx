@@ -1,12 +1,12 @@
 import React from 'react'
 import AboutBanner from '../components/About/AboutBanner'
+import AboutServices from '../components/About/AboutServices'
 
 function About() {
   return (
     <main className='id-about'>
-      <div className="container-fluid">
         <AboutBanner />
-      </div>
+        <AboutServices />
     </main>
   )
 }
