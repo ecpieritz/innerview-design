@@ -1,0 +1,44 @@
+.id-contact{
+  &__form{
+    padding: 80px 0;
+    .container{
+      max-width: 1220px;
+      padding: 0;
+    }
+    .form-group{
+      border-bottom: 1px solid $id-gray;
+      input, textarea{
+        width: 100%;
+        margin-left: 0;
+        height: 60px;
+        border: none;
+        padding-left: 10px;
+        &::placeholder{
+          font-size: 45px;
+          color: $id-black;
+        }
+      }
+
+      textarea{
+        height: 120px;
+        padding-top: 0;
+      }
+    }
+    
+    h2{
+      max-width: 1220px;
+      margin: auto;
+    }
+
+    hr{
+      background-color: $id-gray;
+      margin-top: 30px;
+    }
+
+    &__btn{
+      background-color: $id-black;
+      height: 70px;
+      margin-top: 60px;
+    }
+  }
+}

@@ -17,4 +17,21 @@
       color: $id-white;
     }
   }
+
+  &.form{
+    width: 100%;
+    border: none;
+    background-color: transparent;
+    color: $id-white;
+    text-align: left;
+    p{
+      font-size: 45px; 
+      padding: 0;
+      margin: 3px 0 0;
+
+      &:hover{
+        color: $id-gray-lg;
+      }
+    }
+  }
 }
