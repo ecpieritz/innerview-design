@@ -15,8 +15,8 @@ function AboutBanner() {
           <h2>Learn About Our Special Approach</h2>
           <p>Our process is collaborative and iterative. With every new project, we take the time to listen to the needs of our partners in order to build a body of work from first principles. We divide the work into three phases, in which the head and the hand are always present: understanding, thinking and making. In every phase we present developments for review and feedback before progressing on to the next.</p>
           <p>A selection of our clients are Aller Media, Björkholmen Gallery, Bonnier, Breakit, Coop, Erik Penser Bank, Galleri Magnus Karlsson, Max, Neuro, Swedish Committee for Afghanistan, Unesco and Unicef.</p>
-          <a className="id-btn arrow" href="/about">
-            About us <FontAwesomeIcon icon={faArrowRightLong} />
+          <a className="id-btn arrow" href="/contact">
+            Contact <FontAwesomeIcon icon={faArrowRightLong} />
           </a>
           <img src={img02} alt="Man in black and white filter" />
         </div>
