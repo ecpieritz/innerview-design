@@ -1,4 +1,13 @@
 .id-navbar {
+  .navbar-toggler{
+    margin-top: -15px;
+    svg{
+      width: 30px;
+      height: 30px;
+
+    }
+
+  }
   &__nav{
     padding: 20px;
   
@@ -69,6 +78,34 @@
           color: $id-white;
         }
       }
+    }
+  }
+
+  &.black{
+    .navbar-dark {
+      .navbar-toggler{
+        border-color: $id-black;
+        svg{
+          color: $id-black;
+        }
+      }
+    }
+    .id-navbar__nav__logo{
+      p{
+        color: $id-black;
+        &:hover{
+          color: $id-gray-lg;
+        }
+      }
+    }
+    .id-navbar__nav__socials{
+      svg{
+        color: $id-black;
+        &:hover{
+          color: $id-gray-lg;
+        }
+      }
+
     }
   }
 }
