@@ -50,9 +50,9 @@ function Navbar() {
   return (
     <div className={`id-navbar ${isAboutOrContact ? 'black' : ''} fixed-top`}>
       <div className="id-navbar__nav">
-        <nav class="navbar navbar-dark">
+        <nav className="navbar navbar-dark">
           <button
-            class="navbar-toggler"
+            className="navbar-toggler"
             type="button"
             data-toggle="collapse"
             data-target="#id-navbar"
@@ -81,8 +81,8 @@ function Navbar() {
           </div>
         </nav>
       </div>
-      <div class="collapse id-navbar__links" id="id-navbar">
-        <div class="content">
+      <div className="collapse id-navbar__links" id="id-navbar">
+        <div className="content">
           {links.map((link, index) => (
             <a
               href={link.url}
