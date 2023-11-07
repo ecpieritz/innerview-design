@@ -16,7 +16,7 @@ function ProjectsItem({title, description, id }) {
               <p>{description}</p>
             </div>
             <div className="col-md-2">
-              <a className="id-btn arrow white" href="/contact">
+              <a className="id-btn arrow white" href="/projects/single-project">
                 View Project <FontAwesomeIcon icon={faArrowRightLong} />
               </a>
             </div>
