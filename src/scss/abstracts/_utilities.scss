@@ -15,6 +15,10 @@
 
     &.white{
       color: $id-white;
+      &:hover{
+        color: $id-red;
+        text-decoration: none;
+      }
     }
   }
 
