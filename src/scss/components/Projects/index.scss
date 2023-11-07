@@ -1,0 +1,28 @@
+.id-projects {
+  &__item {
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 900px;
+
+    &__text{
+      padding-top: 600px;
+      color: $id-white;
+    }
+  }
+  &__item:nth-child(1) {
+    background-image: url(../../../assets/img/id-projects__01.png);
+  }
+
+  &__item:nth-child(2) {
+    background-image: url(../../../assets/img/id-projects__02.png);
+  }
+
+  &__item:nth-child(3) {
+    background-image: url(../../../assets/img/id-projects__03.png);
+  }
+  
+  &__item:nth-child(4) {
+    background-image: url(../../../assets/img/id-projects__04.png);
+  }
+}
