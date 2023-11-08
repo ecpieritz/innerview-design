@@ -3,7 +3,7 @@ import React from 'react'
 function SingleGrid() {
   return (
     <section className='id-project-single__grid'>
-      grid
+      Grid
     </section>
   )
 }
