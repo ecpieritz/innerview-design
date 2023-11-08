@@ -9,7 +9,7 @@ import Contact from "./pages/Contact";
 import Home from "./pages/Home";
 import Layout from "./pages/Layout";
 import Projects from "./pages/Projects";
-import SingleProject from './pages/ProjectSingle'
+import SingleProject from './pages/SingleProject'
 
 export default function App() {
   return (
