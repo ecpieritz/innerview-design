@@ -1,11 +1,11 @@
 import React from 'react'
 
-function SingleGrid() {
+function SingleImages() {
   return (
     <section className='id-project-single__grid'>
-      Grid
+      Images
     </section>
   )
 }
 
-export default SingleGrid
+export default SingleImages
