@@ -37,10 +37,6 @@ function Navbar() {
       text: "Projects",
     },
     {
-      url: "/clients",
-      text: "Clients",
-    },
-    {
       url: "/contact",
       text: "Contact",
     },
