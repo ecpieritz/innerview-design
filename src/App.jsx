@@ -4,7 +4,6 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import "./scss/index.scss";
 
 import About from "./pages/About";
-import Clients from "./pages/Clients";
 import Contact from "./pages/Contact";
 import Home from "./pages/Home";
 import Layout from "./pages/Layout";
@@ -20,7 +19,6 @@ export default function App() {
           <Route path="about" element={<About />} />
           <Route path="projects" element={<Projects />} />
           <Route path="projects/single-project" element={<SingleProject />} />
-          <Route path="clients" element={<Clients />} />
           <Route path="contact" element={<Contact />} />
         </Route>
       </Routes>
