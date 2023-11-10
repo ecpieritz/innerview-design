@@ -18,6 +18,20 @@
       margin-bottom: 20px;
     }
   }
+
+  &__texts{
+    margin-bottom: 80px;
+    width: 70%;
+
+    h1{
+      margin-bottom: 40px;
+    }
+
+    p{
+      width: 80%;
+    }
+  }
+
   .bg-black{
     background-color: $id-black;
     color: $id-white;
