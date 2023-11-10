@@ -1,18 +1,53 @@
-.id-project-single{
-  &__banner{
+.id-project-single {
+  &__banner {
     height: 750px;
-    img{
+
+    img {
       width: 100%;
       height: 100%;
       object-fit: cover;
       object-position: top;
     }
   }
-  &__images{
+
+  &__images {
     margin-bottom: 80px;
-    img{
+
+    img {
       width: 100%;
       margin-bottom: 20px;
+    }
+  }
+  .bg-black{
+    background-color: $id-black;
+    color: $id-white;
+    hr{
+      background-color: $id-white;
+    }
+    .form-group{
+      border-bottom: 1px solid $id-white;
+      input, textarea{
+        color: $id-white;
+        background-color: $id-black;
+        &::placeholder{
+          color: $id-white;
+        }
+      }
+
+    }
+
+    .id-contact__form__btn{
+      background-color: $id-white;
+      p{
+        color: $id-black;
+      }
+      
+      &:hover{
+        background-color: $id-gray-lg;
+        p{
+          color: $id-red;
+        }
+      }
     }
   }
 }
