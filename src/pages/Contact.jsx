@@ -1,11 +1,10 @@
 import React from 'react'
+import ContactForm from '../components/Contact/ContactForm'
 
 function Contact() {
   return (
     <main className='id-contact'>
-      <div className="container-fluid">
-        <h1>Contact</h1>
-      </div>
+        <ContactForm />
     </main>
   )
 }
