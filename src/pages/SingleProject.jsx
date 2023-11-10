@@ -1,6 +1,7 @@
 import React from 'react'
 import SingleBanner from '../components/Single/SingleBanner'
 import SingleImages from '../components/Single/SingleImages'
+import ContactForm from '../components/Contact/ContactForm'
 
 function SingleProject() {
   return (
@@ -8,6 +9,9 @@ function SingleProject() {
       <SingleBanner />
       <div className="container-fluid">
         <SingleImages />
+      </div>
+      <div className="bg-black">
+        <ContactForm className='black' />
       </div>
     </main>
   )
