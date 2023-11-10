@@ -2,9 +2,9 @@
 
 ## 🖥 Preview
 <p align = "center">
-  <img src = "x" width = "700" height = "auto">
-  <img src = "x" width = "350" height = "auto">
-  <img src = "x" width = "350" height = "auto">
+  <img src = "https://github.com/ecpieritz/innerview-design/blob/main/public/id-print__01.png?raw=true" width = "700" height = "auto">
+  <img src = "https://github.com/ecpieritz/innerview-design/blob/main/public/id-print__02.png?raw=true" width = "350" height = "auto">
+  <img src = "https://github.com/ecpieritz/innerview-design/blob/main/public/id-print__03.png?raw=true" width = "350" height = "auto">
 </p>
 
 ## 📖 About
